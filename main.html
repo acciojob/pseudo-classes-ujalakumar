@@ -8,10 +8,11 @@
     width: 50%;
     padding: 10px;
 }
-.first-child{
-    background:black;
-    color:white;
+.article p:first-child {
+  color: white;
+  background-color: black;
 }
+
 .nth-child{
     color:black;
 }
@@ -23,9 +24,11 @@
 </head>
 
 <body style="background-color:rgb(135, 206, 235);">
+    <article>
     <p class="first-child">article p White text on a black background</p>
     <p class="nth-child">te text on a b </p>
    <p  class="last-child">Red text </p>
+   </article>
     <ul style="background:gray;font-size:22px;">
         <li>adad</li>
         <li style="background:white">ddd</li>
